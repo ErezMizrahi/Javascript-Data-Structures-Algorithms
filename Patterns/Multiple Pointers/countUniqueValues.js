@@ -1,6 +1,7 @@
 // implement a function that takes a sorted array and count the unique values
 // the array can have nagative values but it will always be sorted
 
+//O(n) time | O(1) space
 const countUniqueValues = (arr) => {
     if(arr.length === 0) return 0
     let leftPointer = 0
