@@ -8,5 +8,5 @@ const reverse = (str) => {
 
 console.log(
     reverse('awesome'), // 'emosewa'
-    // reverse('rithmschool') // 'loohcsmhtir'
+    reverse('rithmschool') // 'loohcsmhtir'
 );
